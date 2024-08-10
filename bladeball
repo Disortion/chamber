@@ -44,7 +44,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenOnRoblox/da-hood-c
 
  local VisualsTab = Window:CreateTab("Visuals", nil) -- Title, Image
 
- local Button = MiscTab:CreateButton({
+ local Button = VisualsTab:CreateButton({
     Name = "ESP",
     Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/UESP'))()
